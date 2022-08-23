@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Values = () => {
   return (
     <div className="container w-full text-center">
-      <h2 className="my-8 text-myPink text-5xl">Nuestros Valores</h2>
+      <h2 className="my-8 text-myBlack text-5xl">Nuestros Valores</h2>
       <div className="grid grid-cols-1 md:grid-cols-8 gap-8">
         <div className="md:col-span-3 w-full flex flex-col justify-start items-center">
           <h3 className="text-4xl mb-5 text-myYellow">Nuestra Historia</h3>

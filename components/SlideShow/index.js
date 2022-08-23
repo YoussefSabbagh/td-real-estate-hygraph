@@ -65,7 +65,7 @@ const SlideShow = ({ slides, id }) => {
   return (
     <section className="relative overflow-hidden" id={id}>
       <div
-        className="relative flex flex-nowrap after:content-['']  after:bg-black after:w-screen after:h-screen after:absolute after:top-0 after:left-0"
+        className="relative flex flex-nowrap after:content-['']  after:bg-myBlack after:w-screen after:h-screen after:absolute after:top-0 after:left-0"
         ref={slideshow}
       >
         {slides.map((slide, i) => {
@@ -80,7 +80,7 @@ const SlideShow = ({ slides, id }) => {
                   alt={slide.alt}
                 />
               </div>
-              <div className="absolute top-0 left- z-10 bg-black/30 flex flex-col justify-center items-start h-full min-h-screen pl-40 w-full text-myWhite uppercase font-bold leading-none ">
+              <div className="absolute top-0 left- z-10 bg-myBlack/30 flex flex-col justify-center items-start h-full min-h-screen pl-40 w-full text-myWhite uppercase font-bold leading-none ">
                 <p className="mt-20 mb-4 text-xl md:text-2xl lg:text-3xl">
                   {slide.linea1}
                 </p>

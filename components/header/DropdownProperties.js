@@ -5,7 +5,7 @@ const DropdownProperties = ({ link }) => {
   return (
     <Menu as="div" className="relative inline-block">
       <Menu.Button className="uppercase"> {link}</Menu.Button>
-      <Menu.Items className="absolute right-0 w-56 origin-top-right rounded pt-2  bg-myPink shadow-lg">
+      <Menu.Items className="absolute right-0 w-56 origin-top-right rounded pt-2  bg-myBlack shadow-lg">
         <Menu.Item>
           <DropdownLink className="dropdown-link" href="/profile">
             Listado

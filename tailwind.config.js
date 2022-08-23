@@ -18,7 +18,6 @@ module.exports = {
         myCyan: '#5bc0eb',
         myWhite: '#f3f3f3',
         myBlack: '#0d0d0d',
-        myPink: '#ffcaea',
         success: '#00ff00',
         error: '#ff0000',
       },

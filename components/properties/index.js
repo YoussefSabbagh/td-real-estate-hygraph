@@ -14,7 +14,7 @@ const Properties = () => {
   }, []);
 
   return (
-    <div className="bg-black p-12 pb-20 shadow-lg">
+    <div className="bg-myBlack p-12 pb-20 shadow-lg">
       <h3 className="mb-8 py-12 border-b pb-4 text-6xl font-semibold text-center">
         Destacadas
       </h3>

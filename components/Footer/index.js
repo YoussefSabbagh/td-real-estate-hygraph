@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-black">
+    <footer className="bg-myBlack">
       <div className="container mx-auto flex flex-col justify-center items-center px-6 py-4">
         <div className="w-full">
           <div className="flex flex-col md:flex-row justify-between items-center">
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex h-10 bg-black shadow-inner justify-center items-center">
+      <div className="flex h-10 bg-myBlack shadow-inner justify-center items-center">
         <p className="text-white">
           Todos los derechos reservados - &copy; 2022 Desarrollado por Tagura
           Digital

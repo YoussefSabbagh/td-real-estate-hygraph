@@ -8,7 +8,7 @@ import Properties from '../components/properties';
 
 export default function Home() {
   return (
-    <Layout title={"Marias's Dessert Home Page"}>
+    <Layout title={'Jesus Guevara'}>
       <section id="home">
         <SlideShow id="home" slides={SliderData} />
       </section>

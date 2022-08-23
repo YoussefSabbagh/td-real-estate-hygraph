@@ -1,7 +1,7 @@
 export const SliderData = [
   {
     linea1: 'Bienvenidos',
-    title: 'Jesus Contreras',
+    title: 'Jesus Guevara',
     linea2: 'Bienes Raices',
     alt: 'background Image',
     image: '/images/dulces/bg-1.jpg',

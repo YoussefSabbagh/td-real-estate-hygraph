@@ -6,7 +6,7 @@ const Hero = () => {
           Bienvenidos
         </p>
         <h1 className="font-title mb-4 text-[2.5rem] md:text-[4rem] lg:text-[5rem] ">
-          Jesus Contreras
+          Jesus Guevara
         </h1>
         <p className="mb-8 text-xl md:text-2xl lg:text-3xl">Bienes Raices</p>
         <button className="btn text-[1.4rem] py-4 px-16 border-none bg-myRose rounded-none hover:bg-myYellow">

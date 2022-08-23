@@ -10,9 +10,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <Link href="/">
               <a className="text-myWihte flex flex-col cursor-pointer mb-8 md:mb-0">
-                <span className="text-4xl hover:fond-bold">
-                  Jesus Contreras
-                </span>
+                <span className="text-4xl hover:fond-bold">Jesus Guevara</span>
                 <span>Bienes Raices</span>
               </a>
             </Link>

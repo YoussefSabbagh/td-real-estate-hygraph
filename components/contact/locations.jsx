@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 const Locations = () => {
   return (
     <article className="flex flex-col justify-start items-center text-myRose">
-      <h2 className="text-4xl mb-8"> Follow us on: </h2>
+      <h2 className="text-4xl mb-8"> Siguenos en: </h2>
       <div className="flex justify-center items-center text-4xl space-x-4">
         <a
           className="transition duration-500 hover:text-myCyan hover:scale-125"

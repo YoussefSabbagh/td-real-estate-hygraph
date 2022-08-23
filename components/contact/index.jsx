@@ -1,5 +1,4 @@
 import FormContact from './formContact';
-import Horarios from './horarios';
 import Locations from './locations';
 
 const Contact = () => {
@@ -14,8 +13,7 @@ const Contact = () => {
           ullam est ex nulla aut nostrum similique? Animi dolorem et ex rerum
           vitae totam iste natus ratione! Tempore, quod assumenda?
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Horarios />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <FormContact />
           <Locations />
         </div>

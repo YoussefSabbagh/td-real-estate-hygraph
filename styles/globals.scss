@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Playfair+Display&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --header-height: 80px;
+    --max-width: 1300px;
+  }
+
+  html,
+  body {
+    @apply font-body relative text-myWhite;
+  }
+}
+
+@layer components {
+  // Header styles Begin
+
+  .menuDesktop {
+    @apply md:relative md:flex md:space-x-2 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0 md:text-base;
+  }
+
+  .menuMobile {
+    @apply fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-myBlack text-2xl transform uppercase text-center transition duration-300;
+  }
+
+  .headerLink {
+    @apply max-w-xs mx-auto p-4 md:p-2 cursor-pointer transition duration-500  hover:bg-gray-700;
+  }
+
+  .dropdown-link {
+    @apply max-w-xs flex p-2 hover:bg-pink-100;
+  }
+
+  // Header styles End
+
+  .card {
+    @apply mb-5 block  rounded-lg border border-gray-200 shadow-md bg-blue-100;
+  }
+
+  .primary-button {
+    @apply rounded bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400 active:bg-amber-500;
+  }
+
+  .default-button {
+    @apply rounded bg-gray-200 py-2 px-4 text-black shadow outline-none hover:bg-gray-300 active:bg-gray-400;
+  }
+
+  .alert-error {
+    @apply my-3 rounded-lg bg-pink-100 p-3 text-red-700;
+  }
+
+  .alert-success {
+    @apply my-3 rounded-lg bg-green-100 p-3 text-green-700;
+  }
+
+  .btn {
+    @apply w-max border-2 border-myRose bg-myRose rounded-full px-4 py-2 text-myWhite font-bold hover:text-myRose hover:bg-myWhite duration-500;
+  }
+
+  .card {
+    transform: rotateZ(-1deg);
+  }
+
+  .content {
+    background: rgba(193, 23, 23, 0.23);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    position: relative;
+    top: -40px;
+    left: -10px;
+  }
+  .info {
+    padding: 16px;
+  }
+  .info h4 {
+    margin: 4px 0;
+    text-transform: uppercase;
+  }
+  .info p {
+    margin: 0;
+    color: #777;
+  }
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .actions a {
+    color: #fff;
+    background: #f01b29;
+    padding: 16px 24px;
+    text-decoration: none;
+  }
+
+  .summary {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .menu__title {
+    font-size: clamp(2.5rem, 10vw, 5rem);
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px var(--cta-clr);
+    letter-spacing: 3px;
+  }
+}

@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex h-10 bg-myBlack shadow-inner justify-center items-center">
-        <p className="text-white">
+        <p className="text-sm md:text-base text-white">
           Todos los derechos reservados - &copy; 2022 Desarrollado por Tagura
           Digital
         </p>

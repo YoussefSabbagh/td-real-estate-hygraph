@@ -56,7 +56,7 @@ const Login = () => {
           <div className={styles.msgs}>
             <h1 className={styles.title}>Gracias por volver</h1>
             {isError && (
-              <p className="text-red-600 text-center bg-pink-200 font-bold rounded py-2">
+              <p className="text-red-600 text-center bg-gray-500 font-bold rounded py-2">
                 {isError}
               </p>
             )}

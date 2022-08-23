@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed w-full h-[80px] z-10 bg-myBlack flex justify-between items-center px-4 md:px-10 lg:px-16 transition duration-500">
+    <header className="fixed w-full h-[80px] z-[200] bg-myBlack flex justify-between items-center px-4 md:px-10 lg:px-16 transition duration-500">
       <Link href="/">
         <a className="text-myWihte flex flex-col">
           <span className="text-4xl hover:fond-bold">Jesus Guevara</span>

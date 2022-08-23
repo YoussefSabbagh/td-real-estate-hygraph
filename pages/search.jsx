@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { FaSearch } from 'react-icons/fa';
 
 import Layout from '../components/Layout';
 import Contact from '../components/contact';
@@ -21,9 +22,22 @@ export default function SearchScreen() {
         id="search"
         className="pt-[var(--header-height)] bg-myBlack flex flex-col justify-center items-center"
       >
-        <h1 className="container mx-auto mt-10 max-w-6xl bg-gray-400 leading-none border-b p-4 text-2xl font-semibold text-center">
-          Aqui van los filtros por:
+        <h1 className="my-10 leading-none border-b p-4 text-4xl font-semibold font-title text-center">
+          Encuentra tu nuevo hogar
         </h1>
+        <div className="container mx-auto max-w-4xl bg-myWhite p-4">
+          <form className="flex space-x-10 bg-myBlack p-4 mx-auto">
+            <label htmlFor="location">
+              Ciudad : <input type="text" /> <FaSearch className="inline" />
+            </label>
+            <label htmlFor="type">
+              Tipo : <input type="text" /> <FaSearch className="inline" />
+            </label>
+            <label htmlFor="price">
+              Precio : <input type="text" /> <FaSearch className="inline" />
+            </label>
+          </form>
+        </div>
 
         <h2 className="mb-8 py-12 border-b pb-4 text-2xl font-semibold text-center">
           Se muestran los resultados de la busqueda
